@@ -1,18 +1,17 @@
-//import '../index.css'
-import logo from "../assets/logo.jpg";
+import logoImg from "../assets/logo.jpg";
 
 export default function Header() {
   return (
     <>
-      <div className="">
-        <div className="main-header">
-            <h1>The Food Order App</h1>
-            <img src={logo} alt="Logo Food Order App" />
+      <header id="main-header">
+        <div id="title">
+          <img src={logoImg} alt="Restaurant Food App" />
+          <h1>ReactFood</h1>
         </div>
-        <div>
-          <button>Cart</button>
-        </div>
-      </div>
+        <nav>
+          <button>Cart (0)</button>
+        </nav>
+      </header>
     </>
   );
 }
