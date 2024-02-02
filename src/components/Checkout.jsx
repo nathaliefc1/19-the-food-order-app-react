@@ -25,6 +25,8 @@ export default function Checkout() {
 
     const fd = new FormData(event.target);
     const customerData = Object.fromEntries(fd.entries()); // { email: test@example.com }
+
+    
   }
 
   return (
